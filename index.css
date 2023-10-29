@@ -1,0 +1,6 @@
+body {
+  background-image: url('./material/rickymorty.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  color:white;
+}

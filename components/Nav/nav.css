@@ -1,0 +1,100 @@
+.navFondo {
+    background-color: var(--azul-oscuro);
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+
+}
+#ConfiguracionDiv{
+  display: flex;
+  flex-direction: row;
+}
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.NavHome {
+    color: var(--verde-claro);
+    font-size: 22px;
+    padding: 0 20px; 
+
+}
+.nav-lista-item {
+    
+    justify-content: space-between; 
+    text-align: left; 
+  }
+
+.nav-link {
+    background-color: var(--verde-claro) ;
+    color: var(--azul-oscuro);
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    margin: 5px;
+    font-size: 16px;
+    line-height: 1;
+    max-width: 150px;
+    text-align: center;
+
+}
+
+
+.nav-link:hover,
+.nav-link.active {
+    background-color: var(--verde-claro); 
+    color: var(--azul-oscuro); 
+    
+}
+    /* Estilos para pantallas grandes */
+@media (min-width: 800px) {
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+
+/* Estilos para pantallas medianas (hasta 799px) */
+@media (max-width: 799px) {
+  .navFondo {
+    height: 150px; 
+  }
+  .NavHome {
+    font-size: 18px; 
+    padding: 0 10px; 
+  }
+  .nav-lista-item {
+    justify-content: space-between; 
+  }
+  .nav-link {
+    padding: 8px 16px; 
+    max-width: 120px; 
+    font-size: 14px; 
+  }
+}
+
+/* Estilos para pantallas de celular (hasta 500px) */
+@media (max-width: 500px) {
+  .navFondo {
+    height: 200px; 
+  }
+  .NavHome {
+    font-size: 18px; 
+    padding: 0 10px; 
+  }
+  .nav-lista-item {
+    justify-content: center; 
+    text-align: center; 
+  }
+  .nav-link {
+    padding: 7px 12px; 
+    max-width: 100px; 
+    font-size: 12px; 
+  }
+}

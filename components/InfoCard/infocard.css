@@ -1,0 +1,17 @@
+.column-info{
+    background-color: var(--azul-oscuro);
+    color: var(--verde-claro);
+    display:flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.icono-infocard{
+    background-image: 10px;
+}
+
+
+.list-group-item{
+    position:relative;
+}
+

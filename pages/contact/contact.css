@@ -1,0 +1,72 @@
+.ContactColor {
+    background-color: rgba(92, 117, 146, .9);
+    height: 650px; 
+    max-width: 900px; 
+    margin: 0 auto; 
+}
+.tituloContact{
+    color: #223142;
+    align-self: center;
+    font-weight: 500;
+}
+
+.titulosecundario{
+    font-size: 15px ;
+}
+textarea{
+    height: 300px;
+}
+.Message-form {
+    color: #223142;
+    padding: 0 px;
+    height: auto; 
+}
+
+.boton-send{
+    box-sizing: border-box;
+}
+.boton-send input[type="submit"] {
+    background-color: #223142; 
+    color: var(--blanco); 
+    padding: 10px 20px; 
+    cursor: pointer;
+    transition:  0.3s; 
+}
+.boton-send input[type="submit"]:hover {
+    background-color:var(--verde-claro); 
+}
+
+
+/* Estilos para pantallas medianas (hasta 768px) */
+@media (max-width: 768px) {
+    .ContactColor {
+        height: auto; 
+        padding: 20px; 
+    }
+    .tituloContact {
+        font-size: 24px; 
+    }
+
+}
+
+/* Estilos para pantallas de celular (hasta 500px) */
+@media (max-width: 500px) {
+    .ContactColor {
+        width: 90%;
+        height: 700px; 
+        padding: 10px; 
+    }
+    .tituloContact {
+        font-size: 20px; 
+    }
+ 
+
+    textarea{
+        height: 200px;
+    
+    }
+    .Message-form{
+   height: auto;
+    }
+
+}
